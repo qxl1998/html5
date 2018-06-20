@@ -1,0 +1,84 @@
+body{
+				font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei UI","Microsoft YaHei",SimHei,"\5B8B\4F53",simsun,sans-serif;
+				color: #666;
+			}
+			#footer{
+				background-color: #eee;
+				border-top: 1px solid #ccc;
+				padding: 20px;
+				text-align: center;
+			}
+			.logo{
+				padding: 13px 0;
+			}
+			#navbar-collapse{
+				margin-top: 0;
+			}
+			.jumbotron{
+				background: url(../img/banner1.jpg) no-repeat left top;
+				margin: 50px 0 0 0;
+				color: #eee;
+			}
+			.jumbotron h1{
+				font-size: 26px;
+				padding-left: 20px;
+			}
+			.jumbotron h4{
+				font-size: 15px;
+				padding-left: 20px;
+			}
+			.jumbotron p{
+				margin-top: -10px;
+				padding-left: 20px;
+			}
+			#information{
+				background-color: #F5F5F5;
+				padding: 50px 0;
+			}
+			.container-fluid{
+				padding: 0;
+			}
+			.info-left{
+				background: #fff;
+				padding: 10px 5px 0 10px;
+			}
+			.info-left .nav_p{
+				text-align: center;
+				margin-top: 10px;
+			}
+			.info-right blockquote{
+				padding: 0;
+			}
+			.info-right h2{
+				font-size: 23px;
+				font-weight: normal;
+				display: block;
+				margin: 10px;
+				color: #333;
+				font-family: "微软雅黑";
+			}
+			.info-right h2 img{
+				width: 32px;
+				height: 32px;
+				vertical-align: bottom;
+			}
+			.tracff-tittle{
+				color: #555;
+				font-family: "微软雅黑";
+				font-size: 15px;
+				padding: 20px;
+			}
+			.tracff-content{
+				width: 96%;
+				margin: 0 auto;
+				font-size:14px;
+				color: #444;
+				line-height:2;
+				font-family:'Microsoft YaHei';
+				text-indent: 24px;
+			}
+			.tab-pane{
+				border: solid 1px #DDDDDD;
+				background: #fff;
+				border-top: none;
+			}

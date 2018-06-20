@@ -1,0 +1,179 @@
+body{
+				font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei UI","Microsoft YaHei",SimHei,"\5B8B\4F53",simsun,sans-serif;
+				color: #666;
+			}
+			#myCarousel{
+				margin-top: 50px;
+			}
+			.logo{
+				padding: 8px 0;
+			}
+			#navbar-collapse{
+				margin-top: 0;
+			}
+			.carousel-inner img{
+				margin: 0 auto;
+			}
+			.tab1{
+				padding: 30px 0;
+				background: #F5F5F5;
+			}
+			.tab-h2{
+				text-align: center;
+				font-size: 20px;
+				color: #0059B2;
+			}
+			.tab-p{
+				font-size: 15px;
+				text-align: center;
+				letter-spacing: 1px;
+				color: #999;
+			}
+			.tab1 .text-muted{
+				text-decoration: line-through;
+				color: #999;
+			}
+			.tab1 .media-heading{
+				margin: 5px 0 20px 0;
+			}
+			.tab1 .media-left img{
+				width: 200px;
+			}
+			.tab1 .col{
+				padding: 20px;
+			}
+			#footer{
+				background-color: #eee;
+				border-top: 1px solid #ccc;
+				padding: 20px;
+				text-align: center;
+			}
+			.tab2{
+				background-color: #F5F5F5;
+			}
+			.text h3{
+				font-size: 20px;
+			}
+			.text p{
+				font-size: 14px;
+			}
+			.bewrite h4{
+				font-size: 16px;
+				color: #333;
+				padding: 8px 5px;
+			}
+			.tab2 h3{
+				padding: 5px;
+				font-size: 16px;
+				color: #222;
+			}
+			.bewrite p{
+				font-size: 13px;
+				text-indent: 26px;
+				line-height: 1.6;
+				letter-spacing: 1px;
+				padding: 0 10px;
+			}
+			.bewrite blockquote{
+				padding: 0;
+				border-left-color: #9B9B9B;
+			}
+			.tab2 blockquote{
+				padding: 0;
+				border-left-color: #136534;
+			}
+			.tab2 .para-title p,.tab2 caption{
+				font-size: 14px;
+				color: #666;
+				border-bottom: 1px solid #ccc;
+			}
+			.tab2 .para p{
+				font-size: 13px;
+				text-indent: 24px;
+				color: #444;
+				line-height: 1.6;
+				margin-bottom: 15px;
+			}
+			.padd{
+				padding: 20px 0;
+			}
+			#container{
+				margin-top: 20px;
+				display: inline-block;
+				width: 340px;
+				height: 300px;
+			}
+			table{
+				background: #fff;
+			}
+			/*媒体查询-小屏幕（平板，大于等于768px）*/
+			@media (min-width: 768px){
+				.bewrite h4{
+					font-size: 16px;
+				}
+				.tab2 h3{
+					font-size: 16px;
+				}
+				.bewrite p{
+					font-size: 12px;
+					text-indent: 24px;
+				}
+				.tab2 .para-title p,.tab2 caption{
+					font-size: 15px;
+				}
+				.tab2 .para p{
+					font-size: 12px;
+					text-indent: 24px;
+				}
+				.text h3{
+					font-size: 22px;
+				}
+				.text p{
+					font-size: 15px;
+				}
+			}
+			/*媒体查询-小屏幕（平板，大于等于992px）*/
+			@media (min-width: 992px){
+				.bewrite h4{
+					font-size: 18px;
+				}
+				.bewrite p{
+					font-size: 13px;
+					text-indent: 26px;
+				}
+				.tab2 h3{
+					font-size: 18px;
+				}
+				.tab2 .para-title p,.tab2 caption{
+					font-size: 16px;
+				}
+				.tab2 .para p{
+					font-size: 14px;
+					text-indent: 28px;
+				}
+				.text h3{
+					font-size: 24px;
+				}
+				.text p{
+					font-size: 16px;
+				}
+			}
+			/*媒体查询-小屏幕（平板，大于等于1200px）*/
+			@media (min-width: 1200px){
+				.bewrite h4{
+					font-size: 20px;
+				}
+				.bewrite p{
+					font-size: 14px;
+					text-indent: 28px;
+				}
+				.tab2 h3{
+					font-size: 20px;
+				}
+				.text h3{
+					font-size: 26px;
+				}
+				.text p{
+					font-size: 18px;
+				}
+			}

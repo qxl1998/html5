@@ -1,0 +1,76 @@
+body{
+				font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei UI","Microsoft YaHei",SimHei,"\5B8B\4F53",simsun,sans-serif;
+				color: #666;
+			}
+			#myCarousel{
+				margin-top: 50px;
+			}
+			.logo{
+				padding: 13px 0;
+			}
+			#navbar-collapse{
+				margin-top: 0;
+			}
+			#footer{
+				background-color: #eee;
+				border-top: 1px solid #ccc;
+				padding: 20px;
+				text-align: center;
+			}
+			.jumbotron{
+				background: url(../img/banner1.jpg) no-repeat left top;
+				margin: 50px 0 0 0;
+				color: #eee;
+			}
+			.jumbotron h1{
+				font-size: 26px;
+				padding-left: 20px;
+			}
+			.jumbotron h4{
+				font-size: 15px;
+				padding-left: 20px;
+			}
+			.jumbotron p{
+				margin-top: -10px;
+				padding-left: 20px;
+			}
+			#case{
+				padding: 40px 0;
+				background-color: #EEEEEE;
+				text-align: center;
+			}
+			#case h4{
+				color: #666;
+			}
+			#case p{
+				color: #666;
+				line-height: 1.6;
+			}
+			/*媒体查询-小屏幕（平板，大于等于768px）*/
+			@media (min-width: 768px){
+				.jumbotron h1{
+					font-size: 30px;
+				}
+				.jumbotron h4{
+					font-size: 16px;
+				}
+			}
+			/*媒体查询-小屏幕（平板，大于等于992px）*/
+			@media (min-width: 992px){
+				.jumbotron h1{
+					font-size: 33px;
+				}
+				.jumbotron h4{
+					padding-top: 2px;
+					font-size: 17px;
+				}
+			}
+			/*媒体查询-小屏幕（平板，大于等于1200px）*/
+			@media (min-width: 1200px){
+				.jumbotron h1{
+					font-size: 36px;
+				}
+				.jumbotron h4{
+					font-size: 18px;
+				}
+			}

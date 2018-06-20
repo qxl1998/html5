@@ -1,0 +1,113 @@
+body{
+				font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei UI","Microsoft YaHei",SimHei,"\5B8B\4F53",simsun,sans-serif;
+				color: #666;
+			}
+			#myCarousel{
+				margin-top: 50px;
+			}
+			.logo{
+				padding: 13px 0;
+			}
+			#navbar-collapse{
+				margin-top: 0;
+			}
+			#footer{
+				background-color: #eee;
+				border-top: 1px solid #ccc;
+				padding: 20px;
+				text-align: center;
+			}
+			.jumbotron{
+				background: url(../img/banner2.jpg) no-repeat left top;
+				margin: 50px 0 0 0;
+				color: #eee;
+			}
+			.jumbotron h1{
+				font-size: 26px;
+				padding-left: 20px;
+			}
+			.jumbotron h4{
+				font-size: 15px;
+				padding-left: 20px;
+			}
+			.jumbotron p{
+				margin-top: -10px;
+				padding-left: 20px;
+			}
+			#about{
+				background-color: #eee;
+				padding: 40px 15px;
+			}
+			#about a{
+				color: #0059B2;
+				font-size: 16px;
+			}
+			#about .about{
+				background-color: #FFFFFF;
+				box-shadow: 2px 2px 3px #ccc;
+			}
+			#about h3{
+				color: #333;
+				font-size: 18px;
+				padding: 20px 0;
+				border-bottom: solid 1px #E8E8E8;
+				margin: 0 0 10px 0;
+			}
+			#about p{
+				text-indent: 26px;
+				font-size: 13px;
+				line-height: 2;
+				color: #444;
+			}
+			/*媒体查询-小屏幕（平板，大于等于768px）*/
+			@media (min-width: 768px){
+				.jumbotron{
+					padding-bottom: 0;
+				}
+				.jumbotron h1{
+					font-size: 30px;
+				}
+				.jumbotron h4{
+					font-size: 19px;
+				}
+				#about h3{
+					font-size: 18px;
+				}
+				#about p{
+					text-indent: 28px;
+					font-size: 14px;
+				}
+			}
+			/*媒体查询-小屏幕（平板，大于等于992px）*/
+			@media (min-width: 992px){
+				.jumbotron h1{
+					font-size: 33px;
+				}
+				.jumbotron h4{
+					padding-top: 2px;
+					font-size: 17px;
+				}
+				#about h3{
+					font-size: 20px;
+				}
+				#about p{
+					text-indent: 30px;
+					font-size: 15px;
+				}
+			}
+			/*媒体查询-小屏幕（平板，大于等于1200px）*/
+			@media (min-width: 1200px){
+				.jumbotron h1{
+					font-size: 36px;
+				}
+				.jumbotron h4{
+					font-size: 18px;
+				}
+				#about h3{
+					font-size: 22px;
+				}
+				#about p{
+					text-indent: 36px;
+					font-size: 16px;
+				}
+			}

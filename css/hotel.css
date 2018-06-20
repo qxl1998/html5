@@ -1,0 +1,212 @@
+body{
+				font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei UI","Microsoft YaHei",SimHei,"\5B8B\4F53",simsun,sans-serif;
+				color: #666;
+			}
+			#footer{
+				background-color: #eee;
+				border-top: 1px solid #ccc;
+				padding: 20px;
+				text-align: center;
+			}
+			.logo{
+				padding: 13px 0;
+			}
+			#navbar-collapse{
+				margin-top: 0;
+			}
+			.jumbotron{
+				background: url(../img/banner1.jpg) no-repeat left top;
+				margin: 50px 0 0 0;
+				color: #eee;
+			}
+			.jumbotron h1{
+				font-size: 26px;
+				padding-left: 20px;
+			}
+			.jumbotron h4{
+				font-size: 15px;
+				padding-left: 20px;
+			}
+			.jumbotron p{
+				margin-top: -10px;
+				padding-left: 20px;
+			}
+			#information{
+				background-color: #F5F5F5;
+				padding: 50px 0;
+			}
+			.hotel .hotel_num {
+			    display: inline-block;
+			    width: 24px;
+			    height: 28px;
+			    background: url(../img/un_map_spot.png) 0 -254px;
+			    font-family: tahoma;
+			    font-weight: bold;
+			    font-size: 12px;
+			    color: #fff;
+			    line-height: 24px;
+			    text-align: center;
+			    cursor: pointer;
+			}
+			.hotel_num:hover{
+				background: url(../img/un_map_spot.png) 0 -284px;
+			}
+			.hotel_diamond04{
+				display: inline-block;
+				width: 47px;
+				height: 12px;
+				background: url(../img/icon_hotel.png) no-repeat 0 4px;
+   				overflow: hidden;
+			}
+			.hotel_class{
+				height: 24px;
+				width: 60px;
+				line-height: 24px;
+				text-align: center;
+				display: inline-block;
+				vertical-align: bottom;
+				font-size: 13px;
+				font-family: "微软雅黑";
+				background: #89BDEF;
+				color: #FFFFFF;
+			}
+			.hotel_td{
+				display: inline-block;
+				vertical-align: middle;
+				font-size: 12px;
+				font-family: "微软雅黑";
+				color: #ff9a14;
+				border: solid 1px #fba62c;
+			}
+			.adress{
+				font-size: 13px;
+				font-family: "微软雅黑";
+			}
+			.icons{
+				display: inline-block;
+			    vertical-align: middle;
+			    margin-right: 8px;
+			    width: 21px;
+			    height: 21px;
+			    background-image: url(../img/icon_facility.png);
+			    background-repeat: no-repeat;
+			}
+			.facility1{
+				background-position: -30px -150px
+			}
+			.facility2{
+				background-position: -60px 0px
+			}
+			.facility3{
+				background-position: 0px -60px
+			}
+			.facility4{
+				background-position: -90px -120px
+			}
+			.facility5{
+				background-position: -90px -60px
+			}
+			.facility6{
+				background-position: -60px -60px;
+			}
+			.facility7{
+				background-position: -30px -60px;
+			}
+			
+			.result_info_judge .hotel_level{
+				height: 85px;
+				text-align: left;
+				font-family: "微软雅黑";
+			}
+			.result_info_judge .total .judgement{
+				font-size: 16px;
+				color: #0066CC;	
+			}
+			.result_info_judge .total .score{
+				font-size: 20px;
+				color: #0066CC;
+			}
+			.result_info_judge .total .allscore{
+				font-size: 14px;
+				color: #444;
+			}
+			.result_info_judge .value{
+				margin: 7px;
+				font-size: 13px;
+				color: #555;
+			}
+			.result_info_judge .dction{
+				font-size: 14px;
+				color: #0066CC;
+			}
+			.result_info_judge > p{
+				font-size: 13px;
+				text-align: left;
+				margin-top: 5px;
+				color: #10a200;
+			}
+			.result_info_icon{
+				position: relative;
+				width: 105px;
+				height: 110px;
+				text-align: right;
+			}
+			.result_info_icon .much{
+				font-size: 13px;
+				color: #F74800;
+				cursor: pointer;
+			}
+			.result_info_icon .money{
+				font-size: 38px;
+			}
+			.result_info_icon .much:hover {
+				color: #E67444;
+			}
+			.result_info_icon .none{
+				color: #900;
+				font-size: 13px;
+			}
+			.result_info_icon .ticket_available{
+				display: block;
+			    height: 0;
+			    width: 19px;
+			    padding-top: 16px;
+			    overflow: hidden;
+			    background: url(../img/icon_hotel.png) no-repeat 0 -54px;
+			    color: #989898;
+			}
+			.result_info_icon a:hover{
+				text-decoration: none;
+			}
+			.result_info_icon .btnto{
+				height: 22px;
+				line-height: 22px;
+				width: 60px;
+				text-decoration: none;
+			    border: solid 1px #e77c00;
+			    border-radius: 3px;
+			    text-align: center;
+			    color: #FFFFFF;
+			    background-color: #ffb000;
+			    font-size: 12px;
+			    font-family: "微软雅黑";
+			    line-height: 22px;
+			    font-family: SimSun,Tahoma,Verdana,Arial,sans-serif;
+			    box-shadow: 0 1px 0 rgba(95,50,0,0.7);
+			    text-shadow: 1px 1px 0 #cf7000;
+			    outline: none;
+			    letter-spacing: 1px;
+			}
+			.result_info_icon .btnto:hover{
+				background: #e77c00;
+			}
+			.rhotel{
+				border-bottom: solid 1px #ccc;
+				padding: 10px 0;
+			}
+			.title{
+				text-align: center;
+				 font-size: 16px;
+			    font-family: "微软雅黑";
+			    padding-bottom: 10px;
+			}
